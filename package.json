@@ -12,7 +12,8 @@
     "url": "git+https://github.com/creativetimofficial/ct-soft-ui-dashboard-pro-react.git"
   },
   "engines": {
-    "node": "18"
+    "node": "14 || 15 || 16",
+    "npm": ">=6"
   },
   "dependencies": {
     "@asseinfo/react-kanban": "2.2.0",
@@ -77,6 +78,10 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
   },
   "browserslist": {
     "production": [
