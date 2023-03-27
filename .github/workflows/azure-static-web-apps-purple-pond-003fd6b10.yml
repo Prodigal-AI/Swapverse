@@ -24,6 +24,8 @@ jobs:
         run: npm cache clean --force
       - name: Install dependencies
         run: npm install react-github-btn
+      - name: Install node
+        run: npm install 
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
